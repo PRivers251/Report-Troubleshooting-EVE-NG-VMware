@@ -6,7 +6,7 @@ This repository contains a detailed report on troubleshooting and configuring an
 ## Contents
 - [Report](./ProblemsEncounteredWhileProvisioningLab.pdf): Contains the full report in DOCX and PDF formats.
 - [Diagrams](./Diagrams): Diagrams and images supporting the report.
-- [Code](./ConfigFiles): Relevant scripts and configuration files used during troubleshooting.
+- [Config Files](./ConfigFiles): Relevant scripts and configuration files used during troubleshooting.
 
 ## Key Takeaways
 - Ensure the operating system supports necessary virtualization features.
