@@ -4,7 +4,7 @@
 This repository contains a detailed report on troubleshooting and configuring an EVE-NG server using VMware on a Windows 11 machine. The report includes descriptions of issues encountered, steps taken to resolve them, and key takeaways from the process.
 
 ## Contents
-- [Report](./Report): Contains the full report in DOCX and PDF formats.
+- [Report](./ProblemsEncounteredWhileProvisioningLab): Contains the full report in DOCX and PDF formats.
 - [Diagrams](./Report/Diagrams): Diagrams and images supporting the report.
 - [Code](./Code): Relevant scripts and configuration files used during troubleshooting.
 
