@@ -1,0 +1,20 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface (Wireless Mapped to Main Network)
+iface eth0 inet manual
+auto pnet0
+iface pnet0 inet dhcp
+	bridge_ports eth0
+	bridge_stp off
+
+# Seconday network interface (Ethernet Mapped to Lab Network)
+iface eth1 inet manual
+auto pnet1
+iface pnet1 inet dhcp
+	bridge_ports eth1
+	bridge_stp off
